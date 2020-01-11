@@ -1,0 +1,25 @@
+{
+  "name": "testeCRUD",
+  "version": "1.0.0",
+  "description": "Repositório criado para resolução do teste de CRUD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianotsi/testeCRUD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrianotsi/testeCRUD/issues"
+  },
+  "homepage": "https://github.com/adrianotsi/testeCRUD#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "sweetalert2": "^9.5.4"
+  }
+}
