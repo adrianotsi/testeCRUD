@@ -94,7 +94,7 @@ function excluirPF(id, nome) {
         if (result.value) {
             $.ajax({
                 type: "GET",
-                url: "action/deletarFisica?idfisica=" + id,
+                url: "action/deletarFisica.php?idfisica=" + id,
                 data: {
                     idfisica: id
                 },
@@ -238,7 +238,7 @@ function excluirT(id, tipoT) {
         if (result.value) {
             $.ajax({
                 type: "GET",
-                url: "action/deletarNumero?idtelefone=" + id,
+                url: "action/deletarNumero.php?idtelefone=" + id,
                 data: {
                     idtelefone: id
                 },
@@ -402,7 +402,7 @@ function excluirE(id, tipoE) {
         if (result.value) {
             $.ajax({
                 type: "GET",
-                url: "action/deletarEndereco?idendereco=" + id,
+                url: "action/deletarEndereco.php?idendereco=" + id,
                 data: {
                     idendereco: id
                 },
@@ -552,7 +552,7 @@ function excluirPJ(id, nome) {
         if (result.value) {
             $.ajax({
                 type: "GET",
-                url: "action/deletarJuridica?idjuridica=" + id,
+                url: "action/deletarJuridica.php?idjuridica=" + id,
                 data: {
                     idfisica: id
                 },
