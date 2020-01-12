@@ -54,7 +54,8 @@
                                        aria-pressed="true" target="_blank">
                                         <i class="fab fa-whatsapp-square"></i> (44) 9 9709-1798
                                     </a>
-                                    <a href="mailto:tsiadriano@gmail.com" class="btn btn-outline-danger btn-lg btn-block" role="button"
+                                    <a href="mailto:tsiadriano@gmail.com"
+                                       class="btn btn-outline-danger btn-lg btn-block" role="button"
                                        aria-pressed="true">
                                         <i class="fas fa-envelope-square"></i> tsiadriano@gmail.com
                                     </a>
@@ -98,7 +99,7 @@ if (isset ($_GET["pg"])) {
             } else {
                 echo "<h1>Erro 404</h1>
                                        <hr>
-                                       <h3>Está página está em desenvolvimento...</h3>";
+                                       <h3>Isso não deveria acontecer...</h3>";
             }
 
             ?>
