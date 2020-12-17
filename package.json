@@ -19,7 +19,7 @@
   "homepage": "https://github.com/adrianotsi/testeCRUD#readme",
   "dependencies": {
     "bootstrap": "^4.4.1",
-    "datatables.net": "^1.10.20",
+    "datatables.net": "^1.10.22",
     "datatables.net-dt": "^1.10.20",
     "jquery": "^3.5.0",
     "jquery-datetimepicker": "^2.5.21",
